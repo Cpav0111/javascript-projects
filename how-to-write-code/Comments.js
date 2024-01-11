@@ -1,4 +1,4 @@
-   // This demo shows off comments!
+`   // This demo shows off comments!
 
    // console.log("This does not print.");
 
@@ -9,4 +9,4 @@
    multi-line
    comments. */
 
-   console.log("Comments make your code more readable by others.");
+   .log("Comments make your code more readable by others.");

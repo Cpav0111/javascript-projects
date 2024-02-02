@@ -4,10 +4,21 @@ let pets = "parrots,cats,moose,alien eggs";
 let sleepAids = "blankets,pillows,eyepatches,alarm clocks";
 
 //1) Use split to convert the strings into four cabinet arrays. Alphabetize the contents of each cabinet.
+food.split(",").sort();
+equipment.split(",").sort();
+pets.split(",").sort();
+sleepAids.split(",").sort();
 
 //2) Initialize a cargoHold array and add the cabinet arrays to it. Print cargoHold to verify its structure.
+let cargoHold=[food, equipment, pets, sleepAids];
+console.log(cargoHold);
 
 //3) Query the user to select a cabinet (0 - 3) in the cargoHold.
+const input= require('readline-sync')
+let question=("Please select a cabinet from 0-3.")
+let answer=("")
+
+answer=Number(input.question(question));
 
 //4) Use bracket notation and a template literal to display the contents of the selected cabinet. If the user entered an invalid number, print an error message.
 

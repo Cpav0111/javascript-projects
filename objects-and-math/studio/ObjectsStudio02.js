@@ -1,5 +1,7 @@
 // Code your orbitCircumference function here:
-
+function orbitCircumference(radius) {
+  return Math.Round(2 * Math.PI * radius);
+}
 
 // Code your missionDuration function here:
 

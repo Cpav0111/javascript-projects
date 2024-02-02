@@ -26,18 +26,18 @@ function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
     meal.push(pantry [j] [i % pantry [j].length])}
     }
     meals.push(meal);
-  }
+  }}
 return meals
-}
+
 function askForNumber(){
  numMeals = input.question("How many meals would you like to make?");
 
   /// CODE YOUR SOLUTION TO PART B here ///
 
-{numMeals=input.question("How many meals would you like to make?");}  
+{{numMeals=input.question("How many meals would you like to make?");}  
   return parseint(numMeals)}
-
-  return numMeals;
+}
+  return numMeals
 
 
 

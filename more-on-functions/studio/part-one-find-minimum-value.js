@@ -5,8 +5,8 @@ function findMinValue(arr){
       if (arr[i] < min){
         minVal = arr[i];
       }
-    }
-     return minVal;
+    
+     return minVal;}
 
 
 
